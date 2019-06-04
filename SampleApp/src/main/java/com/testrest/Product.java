@@ -17,6 +17,9 @@ public class Product {
 		this.productName = productName;
 	}
 	
+	public String toString(){
+		return productId+"...."+productName;
+	}
 	
 	
 }
